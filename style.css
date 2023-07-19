@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-image: url(https://images.hdqwalls.com/wallpapers/republic-of-gamers-room-4k-ka.jpg);
+}
+
+.start-container{
+    width: 400px;
+    height: 300px;
+    color: white;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.637);
+    transition: 2s;
+}
+
+.start-container:hover{
+    background: rgba(3, 3, 3, 0.719);
+    scale: 1.1;
+    transition: 1s;
+    border-radius: 12px;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+    transition: 0.5s;
+    background: rgba(0, 0, 0, 0.945);
+    color: white;
+}
+
+button:hover{
+    scale: 1.2;
+    transition: 0.5s;
+    border-radius: 5px;
+    background: rgb(129, 128, 128);
+    color: black;
+    cursor: pointer;
+}
